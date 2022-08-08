@@ -6,6 +6,11 @@ This repository is a fork of the [core-codebase](./README-original.md) which mea
 
 Find out more at [Airbyte Open Source Quickstart](https://docs.airbyte.com/category/airbyte-open-source-quickstart).
 
+```bash
+# Run Airbyte application
+docker compose up
+```
+
 ## Connector Development
 
 Airbyte provides a [python SDK](https://docs.airbyte.com/connector-development/tutorials/building-a-python-source) to aid in building a source.
