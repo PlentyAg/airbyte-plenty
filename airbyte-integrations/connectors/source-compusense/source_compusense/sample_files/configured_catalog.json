@@ -1,0 +1,15 @@
+{
+  "streams": [
+    {
+      "sync_mode": "full_refresh",
+      "destination_sync_mode": "overwrite",
+      "stream": {
+        "name": "survey_metadata",
+        "supported_sync_modes": ["full_refresh", "incremental"],
+        "source_defined_cursor": false,
+        "json_schema": {
+        }
+      }
+    }
+  ]
+}
